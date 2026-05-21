@@ -1,7 +1,7 @@
 
 # Hello Android - 你好安卓
 
-[![Build APK](https://github.com/realmg51-cpu/HelloWorld-Android/actions/workflows/build.yml/badge.svg)](https://github.com/realmg51-cpu/HelloWorld-Android/actions/workflows/build.yml)
+
 
 一个简单的 Android 应用示例，使用 Kotlin 编写，展示 "Hi" 消息。  
 A simple Android app written in Kotlin that displays a "Hi" message.
@@ -32,7 +32,7 @@ Download the latest APK from GitHub Actions:
 | 技术 | 说明 |
 |------|------|
 | Kotlin | 主要编程语言 |
-| Android Gradle Plugin 8.2.0 | 构建工具 |
+| Android Gradle Plugin 9.0.0 | 构建工具 |
 | ViewBinding | 视图绑定 |
 | GitHub Actions | CI/CD 自动构建 |
 
@@ -88,4 +88,4 @@ RealMG (realmg51-cpu) and You!
 - [SweetDependency](https://github.com/HighCapable/SweetDependency) (已移除 | Removed)
 
 
-Xong! README của bạn trông rất chuyên nghiệp rồi! 🎉
+
