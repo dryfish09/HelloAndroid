@@ -58,8 +58,8 @@ HelloWorld-Android/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/HelloWorld-Android.git
-cd HelloWorld-Android
+git clone https://github.com/youusername/yourreponame.git
+cd yoursourcedirectory
 
 # 构建 Debug APK
 ./gradlew :app:assembleDebug
@@ -78,7 +78,7 @@ MIT License
 
 ## 👨‍💻 作者 | Author
 
-RealMG (realmg51-cpu) and You!
+Dry Fish (dryfish09) and You!
 
 ---
 
