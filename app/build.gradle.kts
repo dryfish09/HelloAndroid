@@ -1,16 +1,15 @@
 plugins {
     id("com.android.application")
-    // ✅ ĐÃ XÓA: id("org.jetbrains.kotlin.android") - Không cần từ AGP 9.0
 }
 
 android {
     namespace = "com.cotlin.helloandroid"
-    compileSdk = 36 // Nên lên 35 cho mới
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.cotlin.helloandroid"
-        minSdk = 33
-        targetSdk = 37  // Cập nhật luôn targetSdk
+        minSdk = 25
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
     }
@@ -24,10 +23,9 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    // ✅ ĐÃ XÓA: kotlinOptions { jvmTarget = "17" } - Không dùng nữa
 }
 
-// ✅ THÊM KHỐI NÀY - Cấu hình Kotlin toolchain mới
+
 kotlin {
     jvmToolchain(17)
 }
